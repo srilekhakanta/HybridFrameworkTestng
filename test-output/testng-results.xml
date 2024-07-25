@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-07-25T09:34:12 IST" name="Default suite" finished-at="2024-07-25T09:34:21 IST" duration-ms="8946">
+    <groups>
+    </groups>
+    <test started-at="2024-07-25T09:34:12 IST" name="Default test" finished-at="2024-07-25T09:34:21 IST" duration-ms="8946">
+      <class name="com.ots.testdata.logintest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.ots.testdata.logintest@2ed2d9cb]" started-at="2024-07-25T09:34:13 IST" name="setup" finished-at="2024-07-25T09:34:15 IST" duration-ms="2553" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="validlogin(java.lang.String,java.lang.String)[pri:0, instance:com.ots.testdata.logintest@2ed2d9cb]" started-at="2024-07-25T09:34:16 IST" name="validlogin" data-provider="logintestdata" finished-at="2024-07-25T09:34:18 IST" duration-ms="2879" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[admin@email.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin@123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validlogin -->
+        <test-method is-config="true" signature="TearDown()[pri:0, instance:com.ots.testdata.logintest@2ed2d9cb]" started-at="2024-07-25T09:34:18 IST" name="TearDown" finished-at="2024-07-25T09:34:19 IST" duration-ms="360" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.ots.testdata.logintest@2ed2d9cb]" started-at="2024-07-25T09:34:19 IST" name="setup" finished-at="2024-07-25T09:34:21 IST" duration-ms="1798" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifylink()[pri:0, instance:com.ots.testdata.logintest@2ed2d9cb]" started-at="2024-07-25T09:34:21 IST" name="verifylink" finished-at="2024-07-25T09:34:21 IST" duration-ms="66" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifylink -->
+        <test-method is-config="true" signature="TearDown()[pri:0, instance:com.ots.testdata.logintest@2ed2d9cb]" started-at="2024-07-25T09:34:21 IST" name="TearDown" finished-at="2024-07-25T09:34:21 IST" duration-ms="562" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+      </class> <!-- com.ots.testdata.logintest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

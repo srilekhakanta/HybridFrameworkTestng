@@ -1,0 +1,10 @@
+com\ots\listeners\ReportlistenerForFramework.class
+com\ots\dataprovider\customdataprovider.class
+com\ots\dataprovider\configread.class
+com\ots\listeners\ExtentManager.class
+com\ots\dataprovider\ExcelReader.class
+com\ots\utility\utility.class
+com\ots\base\Base.class
+com\ots\pages\loginpage.class
+com\ots\factory\Browserfactory.class
+com\ots\pages\Homepage.class
