@@ -5,7 +5,7 @@
 		
 		<listener class-name="com.ots.listeners.ReportlistenerForFramework"></listener>
 	</listeners>
-  <test thread-count="5" name="Test">
+  <test  name="Test">
     <classes>
       <class name="com.ots.testdata.logintest"/>
     </classes>
